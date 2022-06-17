@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ToplulukYonetim" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/light_teal</item>
+        <item name="colorPrimaryVariant">@color/dark_teal</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/light_teal</item>
+        <item name="colorSecondaryVariant">@color/dark_teal</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="autoCompleteTextViewStyle">@style/cursorColor</item>
+    </style>
+
+    <style name="MyPopupTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="cursorColor" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textCursorDrawable">@drawable/cursor</item>
+    </style>
+</resources>

@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">Topluluk Yönetim</string>
+
+    <string name="title_hata">HATA</string>
+    <string name="title_uyari">UYARI</string>
+    <string name="title_bilgi">BİLGİ</string>
+    <string name="response">Response</string>
+
+    <string name="btn_tekrar_dene">Tekrar Dene</string>
+    <string name="btn_kaydet">Kaydet</string>
+    <string name="btn_tamam">Tamam</string>
+    <string name="btn_evet">Evet</string>
+    <string name="btn_yasakla">Yasakla</string>
+    <string name="btn_iptal">İptal</string>
+    <string name="btn_topluluk_sil">Topluluğu Sil</string>
+    <string name="btn_sabitle">Sabitle</string>
+    <string name="btn_sabitten_kaldir">Sabitten Kaldır</string>
+    <string name="btn_duzenle">Düzenle</string>
+    <string name="btn_sil">Sil</string>
+
+    <string name="renk_btn_yasak">#F31717</string>
+
+    <string name="internet_baglanilamadi">İnternete bağlanılamadı.</string>
+    <string name="internet_baglanildi">İnternete bağlanıldı.</string>
+
+    <string name="genel_hata">İşlem yapılırken bir sorun oluştu. Daha sonra tekrar deneyin.</string>
+
+    <string name="log_topluluk_kayitlari_guncellendi">Topluluk kayıtları güncellendi.</string>
+    <string name="kayit_topluluk_bilgileri_guncellendi">Topluluk bilgileri güncellendi.</string>
+    <string name="kayit_uye_yasaklandi">adlı kullanıcı topluluktan yasaklandı. Sebep:</string>
+    <string name="kayit_yasak_kaldirildi">adlı kullanıcının yasağı kaldırıldı.</string>
+    <string name="kayit_yetki_guncellendi_1">adlı kullanıcının yetkisi \"</string>
+    <string name="kayit_yetki_guncellendi_2">\" olarak güncellendi.</string>
+    <string name="kayit_konu_sabitlendi_1">\" başlıklı konu, \"</string>
+    <string name="kayit_konu_sabitlendi_2">\" tarafından sabitlendi.</string>
+    <string name="kayit_konu_sabitten_kaldirildi_1">\" başlıklı konu, \"</string>
+    <string name="kayit_konu_sabitten_kaldirildi_2">\" tarafından sabitten kaldırıldı.</string>
+    <string name="kayit_konu_duzenlendi_1">\" başlıklı konu, \"</string>
+    <string name="kayit_konu_duzenlendi_2">\" tarafından düzenlendi.</string>
+    <string name="kayit_konu_silindi_1">\" başlıklı konu, \"</string>
+    <string name="kayit_konu_silindi_2">\" tarafından silindi.</string>
+    <string name="kayit_yorum_duzenlendi_1">\" başlıklı konuda, \"</string>
+    <string name="kayit_yorum_duzenlendi_2">\" adlı kullanıcının yorumu, \"</string>
+    <string name="kayit_yorum_duzenlendi_3">\" tarafından düzenlendi.</string>
+    <string name="kayit_yorum_silindi_1">\" başlıklı konuda, \"</string>
+    <string name="kayit_yorum_silindi_2">\" adlı kullanıcının yorumu, \"</string>
+    <string name="kayit_yorum_silindi_3">\" tarafından silindi.</string>
+
+    <string name="log_bildirim_gonderildi">Bildirim gönderildi.</string>
+    <string name="bildirim_yasaklandiniz">adlı topluluktan yasaklandınız. Sebep:</string>
+    <string name="bildirim_konunuz_sabitlendi">başlıklı konunuz sabitlendi.</string>
+    <string name="bildirim_konunuz_sabitten_kaldirildi">başlıklı konunuz sabitten kaldırıldı.</string>
+    <string name="bildirim_konunuz_duzenlendi">başlıklı konunuz moderatör tarafından düzenlendi.</string>
+    <string name="bildirim_konunuz_silindi">başlıklı konunuz moderatör tarafından silindi.</string>
+    <string name="bildirim_konunuza_yorum_yapti">başlıklı konunuza yorum yaptı.</string>
+    <string name="bildirim_yorumunuz_duzenlendi">başlıklı konudaki yorumunuz moderatör tarafından düzenlendi.</string>
+    <string name="bildirim_yorumunuz_silindi">başlıklı konudaki yorumunuz moderatör tarafından silindi.</string>
+
+    <!-- Menüler -->
+    <string name="menuActionAra">Ara</string>
+    <string name="menuActionBildirimler">Bildirimler</string>
+    <string name="menuActionSifreDegistir">Şifre Değiştir</string>
+    <string name="menuActionCikisYap">Çıkış Yap</string>
+    <string name="menuActionToplulukKayitlari">Topluluk Kayıtları</string>
+
+    <!-- Main Activity -->
+    <string name="actMainTxtOturumAc">Oturum Aç</string>
+    <string name="actMainTxtKullaniciAd">Kullanıcı Adı</string>
+    <string name="actMainEdtKullaniciAd">Kullanıcı adınızı girin…</string>
+    <string name="actMainTxtSifre">Şifre</string>
+    <string name="actMainEdtSifre">Şifrenizi girin…</string>
+    <string name="actMainCbBeniHatirla">Beni Hatırla</string>
+    <string name="actMainBtnHesapOlustur">Hesap Oluştur</string>
+    <string name="actMainBtnOturumAc">Oturum Aç</string>
+    <string name="actMainEmptyError">Kullanıcı adı ve şifrenizi girin.</string>
+    <string name="actMainLengthError">Kullanıcı adı ve şifre 4–20 karakter aralığında olmalı.</string>
+
+    <!-- Topluluklar Activity -->
+    <string name="actTopluluklarRdBenimTopluluklarim">Benim Topluluklarım</string>
+    <string name="actTopluluklarRdTumTopluluklar">Tüm Topluluklar</string>
+    <string name="actTopluluklarTxtToplulukYok">Açık topluluk bulunamadı.</string>
+
+    <string name="adToplulukOlusturTitle">Topluluk Oluştur</string>
+    <string name="adToplulukOlusturEdtToplulukAd">Topluluk Adı</string>
+    <string name="adToplulukOlusturEdtToplulukAciklama">Topluluk Açıklaması</string>
+    <string name="adToplulukOlusturTxtToplulukGizlilik">Topluluk Gizliliği</string>
+    <string name="adToplulukOlusturRdAcik">Açık</string>
+    <string name="adToplulukOlusturRdKapali">Kapalı</string>
+    <string name="adToplulukOlusturRdGizli">Gizli</string>
+    <string name="adToplulukOlusturEmptyError">Topluluk adı ve açıklaması boş olamaz.</string>
+
+    <string name="toplulukAcik">Açık Topluluk</string>
+    <string name="toplulukKapali">Kapalı Topluluk</string>
+    <string name="toplulukGizli">Gizli Topluluk</string>
+
+    <!-- Bildirimler Activity -->
+    <string name="actBildirimlerToolbarTitle">Bildirimler</string>
+    <string name="actBildirimlerToolbarSubTitleBildirimlerOkunmus">Bütün bildirimler okunmuş.</string>
+    <string name="actBildirimlerToolbarSubTitleBildirimlerOkunmamis">okunmamış bildirim</string>
+    <string name="actBildirimlerToolbarSubTitleBildirimYok">Herhangi bir bildirim yok.</string>
+
+    <!-- Şifre Değiştir Activity -->
+    <string name="actSifreDegistirToolbarTitle">Şifre Değiştir</string>
+    <string name="actSifreDegistirTxtSifreDegistir">Şifre Değiştir</string>
+    <string name="actSifreDegistirTxtYeniSifre">Yeni Şifre</string>
+    <string name="actSifreDegistirEdtYeniSifre">Yeni şifrenizi girin…</string>
+    <string name="actSifreDegistirTxtYeniSifreOnay">Yeni Şifre Onay</string>
+    <string name="actSifreDegistirEdtYeniSifreOnay">Yeni şifrenizi tekrar girin…</string>
+    <string name="actSifreDegistirBtnSifreDegistir">Şifre Değiştir</string>
+    <string name="actSifreDegistirEmptyError">Yeni şifrenizi girin.</string>
+    <string name="actSifreDegistirLengthError">Şifre uzunluğu 4–20 karakter arasında olmalı.</string>
+    <string name="actSifreDegistirEqualError">Şifreler birbiriyle eşleşmiyor.</string>
+
+    <!-- Topluluk Activity -->
+    <string name="actToplulukFrgTitleToplulukBilgileri">Topluluk Bilgileri</string>
+    <string name="actToplulukFrgTitleKonular">Konular</string>
+    <string name="frgToplulukDetayBtnToplulukAyarlari">Topluluk Ayarları</string>
+    <string name="frgToplulukDetayBtnToplulukKatil">Topluluğa Katıl</string>
+    <string name="frgToplulukDetayBtnToplulukAyril">Topluluktan Ayrıl</string>
+    <string name="frgToplulukDetayBtnYasakliUyeler">Yasaklanmış Üyeler</string>
+
+    <string name="frgToplulukDetayTxtUyeler">Üyeler (1 Üye)</string>
+    <string name="yetki_yonetici">Yönetici</string>
+    <string name="yetki_moderator">Moderatör</string>
+    <string name="yetki_uye">Üye</string>
+    <string name="yetki_yok">Ziyaretçi</string>
+    <string name="adToplulukAyarlariTitle">Topluluk Ayarları</string>
+    <string name="adToplulukSilUyari">Topluluğu silmek istediğinize emin misiniz? Bu işlem geri alınamaz.</string>
+
+    <string name="frgToplulukKonularEdtKonuAra">Konu ara…</string>
+    <string name="cardKonuTxtYorum">999 Yorum</string>
+    <string name="cardKonuTxtSabit">Sabit Konu</string>
+    <string name="cardKonuTxtKonuYazar">Yazar,</string>
+    <string name="cardKonuTxtKonuTarih">21/05/2022</string>
+    <string name="frgToplulukKonularTxtKonuYok">Bu toplulukta konu açılmamış.</string>
+
+    <string name="adKonuOlusturTitle">Yeni Konu</string>
+    <string name="adKonuOlusturTxtKonuBaslik">Konu Başlığı</string>
+    <string name="adKonuOlusturEdtKonuBaslik">Konu başlığını girin…</string>
+    <string name="adKonuOlusturTxtKonuIcerik">Konu İçeriği</string>
+    <string name="adKonuOlusturEdtKonuIcerik">Konu içeriğini girin…</string>
+    <string name="adKonuOlusturEmptyError">Konu başlığı ve içeriği boş olamaz.</string>
+
+    <string name="adUyeDuzenleTxtUyeYetki">Yetki</string>
+    <string name="adUyeDuzenleRdUye">Üye</string>
+    <string name="adUyeDuzenleRdModerator">Moderatör</string>
+    <string name="adUyeDuzenleEdtYasakSebebi">Yasaklama sebebini girin…</string>
+    <string name="adUyeDuzenleTxtYasakSebebi">Yasaklama Sebebi</string>
+    <string name="adUyeDuzenleTitle">Üye Ayarları -</string>
+
+    <!-- Konu Detay Activity -->
+    <string name="konu_sahibi">Konu Sahibi</string>
+
+    <string name="adKonuDuzenleTitle">Konuyu Düzenle</string>
+
+    <string name="adKonuSilTitle">Konuyu Sil</string>
+    <string name="adKonuSilMessage">Konuyu silmek istediğinize emin misiniz? Bu işlem geri alınamaz.</string>
+
+    <string name="konu_sabitlendi">Konu sabitlendi.</string>
+    <string name="konu_sabitten_kaldirildi">Konu sabitten kaldırıldı.</string>
+
+    <string name="yorum_gonderildi">Yorum gönderildi.</string>
+
+    <string name="actKonuDetayTxtYorumYok">Bu konuya yorum atılmamış.</string>
+    <string name="adYorumAtTitle">Yorum At</string>
+    <string name="adYorumDuzenleTitle">Yorum Düzenle</string>
+    <string name="adYorumSilTitle">Yorum Sil</string>
+    <string name="adYorumAtTxtYorumIcerik">Yorum İçeriği</string>
+    <string name="adYorumAtEdtYorumIcerik">Yorum içeriğini girin…</string>
+    <string name="adYorumAtEmptyError">Yorum içeriğini boş olamaz.</string>
+
+    <!-- Yasaklanmış Üyeler Activity -->
+    <string name="actYasakliUyelerTitle">Yasaklanmış Üyeler</string>
+    <string name="actYasakliUyelerTxtYasakliUyeYok">Yasaklı üye bulunmuyor.</string>
+
+    <!-- Topluluk Kayıtları Activity -->
+    <string name="actToplulukKayitlariTitle">Topluluk Kayıtları</string>
+    <string name="actToplulukKayitlariTxtKayitYok">Toplulukta henüz bir işlem yapılmamış.</string>
+</resources>

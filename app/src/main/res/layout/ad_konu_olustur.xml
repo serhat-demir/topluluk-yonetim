@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/adKonuOlusturTxtKonuBaslik"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="12dp"
+        android:paddingHorizontal="4dp"
+        android:text="@string/adKonuOlusturTxtKonuBaslik"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/adKonuOlusturEdtKonuBaslik"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:ems="10"
+        android:hint="@string/adKonuOlusturEdtKonuBaslik"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adKonuOlusturTxtKonuBaslik" />
+
+    <TextView
+        android:id="@+id/adKonuOlusturTxtKonuIcerik"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="12dp"
+        android:paddingHorizontal="4dp"
+        android:text="@string/adKonuOlusturTxtKonuIcerik"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adKonuOlusturEdtKonuBaslik" />
+
+    <EditText
+        android:id="@+id/adKonuOlusturEdtKonuIcerik"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:ems="10"
+        android:hint="@string/adKonuOlusturEdtKonuIcerik"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:maxLength="500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adKonuOlusturTxtKonuIcerik" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

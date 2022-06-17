@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/drawable/cursor.xml" value="0.2505" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/drawable/ic_add_white.xml" value="0.2505" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/drawable/ic_comment.xml" value="0.2505" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/drawable/ic_person_remove.xml" value="0.2505" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/drawable/ic_pin.xml" value="0.2505" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/drawable/ic_search_white.xml" value="0.2505" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/drawable/ic_settings.xml" value="0.2505" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/drawable/ic_unlock.xml" value="0.2505" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/activity_bildirimler.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/activity_konu_detay.xml" value="0.4" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/activity_sifre_degistir.xml" value="0.264" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/activity_topluluk.xml" value="0.264" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/activity_topluluk_kayitlari.xml" value="0.264" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/activity_topluluklar.xml" value="0.264" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/activity_yasakli_uyeler.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/ad_konu_olustur.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/ad_topluluk_ayarlari.xml" value="0.264" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/ad_topluluk_olustur.xml" value="0.4" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/ad_uye_duzenle.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/ad_yorum_at.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/card_bildirim.xml" value="0.6" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/card_kayit.xml" value="0.536" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/card_konu.xml" value="0.536" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/card_topluluk.xml" value="0.6" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/card_uye.xml" value="0.536" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/card_yasakli_uye.xml" value="0.536" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/card_yorum.xml" value="0.4" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/fragment_topluluk_detay.xml" value="0.4" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/layout/fragment_topluluk_konular.xml" value="0.264" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/menu/menu_ara.xml" value="0.264" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/menu/menu_arama.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/menu/menu_kayitlar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/menu/menu_konu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/menu/menu_topluluk.xml" value="0.4" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/menu/menu_topluluklar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.124" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.124" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/mipmap-anydpi-v26/ic_spectrum.xml" value="0.2505" />
+        <entry key="..\:/Users/SERHAT/Documents/Serhat/android/AndroidStudioProjects/SpectrumClone/app/src/main/res/mipmap-anydpi-v26/ic_spectrum_round.xml" value="0.2505" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

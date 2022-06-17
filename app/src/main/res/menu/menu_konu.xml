@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuKonuActionBildirimler"
+        android:icon="@drawable/ic_notifications"
+        android:title="@string/menuActionBildirimler"
+        app:showAsAction="always|collapseActionView" />
+    <item
+        android:id="@+id/menuKonuActionSifreDegistir"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/menuActionSifreDegistir"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuKonuActionCikis"
+        android:icon="@drawable/ic_exit"
+        android:title="@string/menuActionCikisYap"
+        app:showAsAction="ifRoom" />
+</menu>

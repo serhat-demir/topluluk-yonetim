@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/adToplulukAyarlariTxtToplulukAd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="12dp"
+        android:paddingHorizontal="4dp"
+        android:text="@string/adToplulukOlusturEdtToplulukAd"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/adToplulukAyarlariEdtToplulukAd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:ems="10"
+        android:hint="@string/adToplulukOlusturEdtToplulukAd"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adToplulukAyarlariTxtToplulukAd" />
+
+    <TextView
+        android:id="@+id/adToplulukAyarlariTxtToplulukAciklama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="12dp"
+        android:paddingHorizontal="4dp"
+        android:text="@string/adToplulukOlusturEdtToplulukAciklama"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adToplulukAyarlariEdtToplulukAd" />
+
+    <EditText
+        android:id="@+id/adToplulukAyarlariEdtToplulukAciklama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:ems="10"
+        android:hint="@string/adToplulukOlusturEdtToplulukAciklama"
+        android:inputType="textPersonName"
+        android:maxLength="250"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adToplulukAyarlariTxtToplulukAciklama" />
+
+    <TextView
+        android:id="@+id/adToplulukAyarlariTxtToplulukGizlilik"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="12dp"
+        android:paddingHorizontal="4dp"
+        android:text="@string/adToplulukOlusturTxtToplulukGizlilik"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adToplulukAyarlariEdtToplulukAciklama" />
+
+    <RadioGroup
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adToplulukAyarlariTxtToplulukGizlilik">
+
+        <RadioButton
+            android:id="@+id/adToplulukAyarlariRdAcik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/adToplulukOlusturRdAcik" />
+
+        <RadioButton
+            android:id="@+id/adToplulukAyarlariRdKapali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:text="@string/adToplulukOlusturRdKapali" />
+
+        <RadioButton
+            android:id="@+id/adToplulukAyarlariRdGizli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/adToplulukOlusturRdGizli" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>
